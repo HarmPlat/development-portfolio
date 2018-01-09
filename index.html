@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Development Portfolio HPlat</title>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="url" />
+  <link type="image/png" rel="icon"  href="images/favicon.ico">
+  <link type="text/css" rel="stylesheet" href="stylesheet HplatPOP.css">
+  <style></style>
+</head>
+<body>
+<div class="main">
+<header></header>
+<div id="navbar">
+<ul>
+<li><a href="url">HOME</a></li>
+<li><a href="#dev">Development</a></li>
+<li><a href="#progress">Progress/Goals</a></li>
+<li><a href="#progress">Links</a></li>
+</ul>
+</div> <!--end of navbar-->
+<div class="banner">
+<img class="images" src="images/sky.jpg" alt="sunrise">
+<h1 id="dev">Development</h1>
+</div>
+<p>This will be an overview of my development as a coder. 
+Starting from humble beginnings (you know nothing, John Snow) 
+i've recently (dec'17) started learning HTML, CSS and JavaScript. 
+Still in it's infant stages, but already crawling about. 
+I hope to master these 3 languages in 2018, and while I'm at it, 
+I'll be adding PHP and possibly JAVA into the mix. 
+</p>
+<h3>Learning so far</h3> 
+<p><em>Codecademy</em>: a website for the utmost beginner such as myself. 
+You'll learn the basics of many languages, through reading about, and playing with code. 
+Mainly the playful aspect of learning helps me to stay motivated. Coding can be fun! 
+Current progress: introduction to HTML, introduction to CSS, introduction to JavaScript<br/><br/> 
+
+<em>Sololearn</em>: like codecademy, this is also a website for beginners. 
+Likewise, a lot of reading, mixed with exercizes. Great site to learn the basics too.  
+I recommend using both sites, as they have slightly different takes on things, which will help 
+you get a more rounded introduction. 
+Current progress: introduction to HTML, introduction to CSS, introduction to JavaScript<br/> <br/>
+
+<em>CodeGorilla</em>: I've applied for a traineeship (or "bootcamp") at <a href="https://www.codegorilla.nl/" target="_blank">CodeGorilla</a>. They seem to be a great team of people, 
+that have built their company around the fact that there's a large shortage of programmers, and also many 
+people that might want to make the shift into IT but don't know where to start. They offer a bootcamp of 4 months, 
+where you'll learn in-depth PHP, both for frontend and backend development. To get into the bootcamp there is first 
+a full month of studies at home, plus a "hackathon" on the 6<sup>th</sup> and 7<sup>th</sup> of january 2018. I'm stoked!
+During the home studies, we were required to build 2 things: an addressbook using HTML, CSS & JavaScript, and this 
+site (also using HTML, CSS & JavaScript). 
+</p>
+<h3>Learning soon</h3>
+<p><em>Eloquent Javascript</em>: a book by Marijn Haverbeke. I just ordered this book online and it should arrive 
+in about 2 weeks. You can read it <a href="http://eloquentjavascript.net/" target="_blank">online</a> too, for free! <br/>
+(I've started there but I find reading a book more pleasant than reading a screen). 
+People say it's one of the best books out there for learning in depth JavaScript. <br/>
+There's plenty more great books to choose from, but I'll start with this and see where it goes from there. 
+
+
+</p>
+<img class="images" src="images/sky.jpg" alt="sunrise">
+<h1 id="progress">Progress and Goals</h1>
+<p>Current progress on my grasp of programming languages, and the goals for this year.
+At present, I'm beginning to understand HTML and CSS. I can use both languages to build a website 
+structure (HTML) and add styling (CSS). Both are generally not considered "programming languages", 
+but more make-up languages. The 1<sup>st</sup> real programming language that I'm learning atm is JavaScript. 
+Suffice to say that I still have a long way to go before I grasp that.
+Then again, the very first baby steps can already be found on this very page. 
+Check the source code if you're interested in seeing the JavaScript used here.
+</p>
+<br/>
+<p class="bartitles">HTML</p><br/>
+<p class="bartitles">CSS</p><br/>
+<p class="bartitles">JavaScript</p><br/>
+<div class="progressbars">
+<progress value="35" max="100">HTML</progress><br/><br/>
+<progress value="35" max="100">CSS</progress><br/><br/>
+<progress value="15" max="100">JavaScript</progress><br/><br/>
+</div>
+
+<table>
+<tr>
+<td></td>
+<td><div></div></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
+<!--<div class="paintings">
+<img src="images/schilderij panter 2017 03 11 wip4 50pct.jpg" width="240px" />
+<p>paintings</p>
+</div>-->
+
+<div>
+<button id="count" onclick="countUp();">MakeItCount</button>
+<br/><br/>
+<p id="countingup">0</p>
+<br/>
+<!--<script>
+$(document).ready(function(){
+$('#myButton").click(function(){
+</script>-->
+<script>
+var i = 0;
+function countUp(){
+i++; 
+if (i<=12){
+document.getElementById("countingup").innerHTML = i;
+} else if (i<=13) {
+document.getElementById("countingup").innerHTML = "Are you sure you want to keep counting?";
+} else if (i<=14) {
+document.getElementById("countingup").innerHTML = "Allright, let's go!";
+} else if (i>14 && i<44) {
+document.getElementById("countingup").innerHTML = i-2;
+} else {
+document.getElementById("countingup").innerHTML = 42 + "! The answer to everything"
+}
+}
+/*"for(i="#"; i<"########"; i+="#);
+document.getElementById("tags").innerHTML = i;
+
+function showHashtags() {
+document.getElementById("tags").innerHTML = Tags;
+}
+*/
+
+
+</script>
+</div>
+</div> <!--end of "main"-->
+
+<footer>
+
+</footer>
+
+</body>
+</html>

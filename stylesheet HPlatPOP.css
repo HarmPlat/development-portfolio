@@ -1,0 +1,88 @@
+/*CSS file for Harm Plat POP site 201801 */
+
+body {
+  /*background-color: #838187;*/
+  background-color: #e0dcd2;
+  font-family: Verdana, sans-serif;
+  margin: 0 auto;
+  }
+  .main {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  background-color: #efefef;
+  }
+  
+  h1, h3, p {
+  max-width: 70%;
+  text-align: left;
+  margin: 10px 100px;
+  padding-left: 50px;
+  }
+  #navbar{
+  background-color: #838187;
+  margin: 0 auto;
+  position: fixed;
+  width: 1200px;
+  top: 0;
+  
+  }
+  
+  ul {
+  width: 50%;
+  /*something to center the menu*/
+  display: inline;
+  list-style-type: none;
+  }
+  li {
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: #838187;
+  }
+  li a:hover {
+  color: white;
+  }
+  .banner{
+	
+  }
+  .images{
+   width: 100%;
+   
+  }
+  progress[value] {
+  /* reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  width: 250px;
+  height: 20px;
+  
+  //#552230;
+  margin: 10px 100px;
+  }
+  
+  .progressbars {
+  position: relative; 
+  left: 110px;
+  bottom: 11em;
+  }
+  
+  p.bartitles {
+  max-width: 200px;
+  }
+  #count {
+	  width: 12em;
+	  height: 2em;
+	  text-align: center;
+	  background-color: red;
+	  border-style: none;
+	  color: white;
+	  margin-left: 90px;
+  }
+  #countingup{
+	  width: 70%;
+	  margin-left: 10em;
+  }
+  .paintings {
+  text-align: right;
+  margin-right: 400px;
+  }
